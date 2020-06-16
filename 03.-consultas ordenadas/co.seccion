@@ -1,0 +1,9 @@
+--consultas ordenadas
+select idproducto, nombre, seccion, precio
+from productos
+where seccion = 'FERRETERÍA' or seccion = 'DEPORTES'
+order by seccion
+/*se puede usar la directiva
+ desc o DESC PARA ORDENAR DE FORMA
+ DESCENDENTE
+*/
